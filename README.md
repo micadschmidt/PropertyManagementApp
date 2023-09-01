@@ -43,7 +43,7 @@ Before you begin, ensure you have met the following requirements:
 2. Install gem dependencies:
 
   ```bash
-    bundle install
+    bundle install```
 
 3. Set up the database:
 
