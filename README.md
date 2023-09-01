@@ -56,14 +56,12 @@ Before you begin, ensure you have met the following requirements:
   ```bash
     rails db:seed
 
+
 ## Usage
 
-Start the Rails server:
-
-  ```bash
+To start the Rails server, run the following command:
+    ```bash
     rails server
-
-Access the application in your web browser at http://localhost:3000.
 
 ## Project Structure
 
@@ -75,14 +73,14 @@ Access the application in your web browser at http://localhost:3000.
 
 ## Testing
 To run the test suite, use the following command:
-
-  ```bash
+    ```bash
     rails test
-Deployment
+
+## Deployment
 You can deploy this application to platforms like Heroku, Railway, or Render. Ensure you set up the required environment variables, configure the database, and handle production-ready settings as needed.
 
-Contributing
+## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow the guidelines in CONTRIBUTING.md.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE.md file for details.
