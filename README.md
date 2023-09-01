@@ -36,35 +36,29 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 
 1. Clone the repository:
-
-   ```bash
+    ```bash
     git clone <repository-url>
 
 2. Install gem dependencies:
-
-  ```bash
-    bundle install```
+    ```bash
+    bundle install
 
 3. Set up the database:
-
-  ```bash
+    ```bash
     rails db:create
     rails db:migrate
 
 4. Seed the database with sample data (optional):
-
-  ```bash
+    ```bash
     rails db:seed
 
-
 ## Usage
-
 To start the Rails server, run the following command:
-    ```bash
+    ```
     rails server
+    ```
 
 ## Project Structure
-
 /app: Contains the main application code.
 /config: Configuration files for the Rails application.
 /db: Database-related files, including migrations and seed data.
@@ -73,9 +67,9 @@ To start the Rails server, run the following command:
 
 ## Testing
 To run the test suite, use the following command:
-    ```bash
+    ```
     rails test
-
+    ```
 ## Deployment
 You can deploy this application to platforms like Heroku, Railway, or Render. Ensure you set up the required environment variables, configure the database, and handle production-ready settings as needed.
 
